@@ -1,4 +1,4 @@
-package fundamentals;
+package fundamentals.contact;
 
 public class Contact {
     private String firstName;

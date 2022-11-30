@@ -13,10 +13,10 @@ public class DeclareDataType {
         System.out.println("Information about my contact");
         System.out.println(age +"");
         System.out.println(likesSports +"");
-        System.out.println(streetAddress +"");
-        System.out.println(city +"");
-        System.out.println(state +"");
-        System.out.println(zipcode +"");
+//        System.out.println(streetAddress +"");
+        System.out.println(streetAddress + "," +city + "," +state + "," +zipcode);
+//        System.out.println(state +"");
+//        System.out.println(zipcode +"");
         System.out.println(paymentAmount +"");
         System.out.println(finalGrade +"");
 

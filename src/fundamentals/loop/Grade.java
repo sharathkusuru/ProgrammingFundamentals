@@ -13,13 +13,14 @@ public class Grade {
         int[] studentThreeGrades = {88, 92, 92, 94};
 
         String[] students = {"sharath", "varun", "raghu"};
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Student Names: " + Arrays.toString(students));
         System.out.print("Enter a student's name:");
         String selectedStudentName = scanner.nextLine();
        if (selectedStudentName.equals("sharath")){
            System.out.println("grades is :"+Arrays.toString(studentOneGrades));
-           for(int i=1;i<count;i++){
+           for(int i=0;i<count;i++){
                totalMarks += studentOneGrades[i];
            }
            System.out.println("totalMaraks is:"+totalMarks);
@@ -30,26 +31,22 @@ public class Grade {
        }
        if(selectedStudentName.equals("varun")){
            System.out.println("grade is :"+Arrays.toString(studentTwoGrades));
-           for(int i=1;i<count;i++){
+           for(int i=0;i<count;i++){
                totalMarks += studentTwoGrades[i];
            }
            System.out.println("totalMaraks is:"+totalMarks);
            percetage =(totalMarks/400)*100;
-
            System.out.println("percenatge is :"+ percetage);
-
 
        }
        if(selectedStudentName.equals("raghu")){
            System.out.println("grade is :"+Arrays.toString(studentThreeGrades));
-           for(int i=1;i<count;i++){
+           for(int i=0;i<count;i++){
                totalMarks += studentThreeGrades[i];
            }
            System.out.println("totalMaraks is:"+totalMarks);
            percetage =(totalMarks/400)*100;
-
            System.out.println("percenatge is :"+ percetage);
-
        }
         System.out.print("The student Grade is: ");
         percetage =(totalMarks/400)*100;
